@@ -6,132 +6,309 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notimed Download</title>
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="styles.css" >
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="aos.css">
   <link rel="stylesheet" href="icofont.min.css">
+  <link rel="stylesheet" href="owl.carousel.min.css">
   <style type="text/css">
 
   </style>
 </head>
 
-<body data-aos-easting="ease" data-aos-duration="400" data-aos-delay="0">
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html"><img src="doctor.jpg" alt="NOTIMED" style="width: 50%;"></a>
-        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-            <span class="toggle-wrap">
-              <span class="toggle-bar"></span>
-            </span>
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="Proceso-de-instalación-NotiMed.pdf">Instructivo</a>
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+    <!-- Page Wraper -->
+    <div class="page_wrapper">
+    <!-- Preloader -->
+    <div id="preloader" style="display: none;">
+      <div id="loader"></div>
+    </div>
+  
+    <!-- Header Start -->
+    <header style="margin-bottom: 20px;">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <span class="toggle-wrap">
+                  <span class="toggle-bar"></span>
+                </span>
+              </span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="doctor.jpg" alt="NOTIMED" style="width: 50%;">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <div class="btn_block">
+                    <a class="nav-link dark_btn" href="Proceso-de-instalación-NotiMed.pdf">Instructivo Android</a>
+                    <div class="btn_bottom"></div>
+                  </div>
+                  <div class="btn_block">
+                    <a class="nav-link dark_btn" href="Proceso-de-instalación-NotiMed.pdf">Instructivo iOS</a>
+                    <div class="btn_bottom"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+  
+    
+    <!-- Banner-Section-Start -->
+    <section class="banner_section" style="margin-top: 100px;">
+  
+        <div class="ripple-background">
+          <div class="circle xxlarge shade1"></div>
+          <div class="circle xlarge shade2"></div>
+          <div class="circle large shade3"></div>
+          <div class="circle mediun shade4"></div>
+          <div class="circle small shade5"></div>
+        </div>
+      
+      <!-- container start -->
+      <div class="container">
+        <!-- row start -->
+        <div class="row">
+          <div class="col-lg-6 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+            <!-- banner text -->
+            <div class="banner_text">
+              <!-- h1 -->
+              <h1>
+                "NOTIMED"<br>
+                <span>App notificador</span>
+              </h1>
+              <!-- p -->
+              <p>
+                "Desarrollado por el área de Informática Biomédica"
+              </p>
+            </div>
+            <!-- app buttons -->
+            <ul class="app_btn">
+                <li>
+                  <a href="Notimed-V.1.1.apk">
+                    <img class="blue_img" src="images/googleplay.png" alt="imageAndroid">
+                  </a>
+                </li>
+                <li>
+                  <a href="itms-services://?action=download-manifest&url=https://notimed-sanpablo.solera.pe/manifest.plist">
+                    <img class="blue_img" src="images/appstorebtn.png" alt="imageIos">
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section>
+    <!-- Banner-Section-end -->
+  
+    <!-- Our Client -->
+    <section class="row_am our_client">
+        <div class="container">
+          <div class="section_title">
+            <h2>
+                <span class="">Disponible</span>
+                en las siguientes clínicas
+            </h2>
+          </div>
+          <!-- Our Client List -->
+          <ul class="client_list">
+            <li>
+                <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/sg.png" alt="image">
+              </div>
             </li>
-            <li class="nav-item">
-              <div class="btn_block">
-                <a class="nav-link dark_btn" href="">Descargar</a>
-                <div class="btn_bottom"></div>
+            <li>
+                <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                  <img src="images/jn.png" alt="image">
+                  <span style="position: absolute; top: 5px; right: 5px; background-color: purple; color: white; padding: 3px 6px; border-radius: 5px; font-size: 12px; font-weight: bold;">Próximamente</span>
+                </div>
+              </li>                           
+            <li>
+                <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/sp.png" alt="image">
+                <span style="position: absolute; top: 5px; right: 5px; background-color: purple; color: white; padding: 3px 6px; border-radius: 5px; font-size: 12px; font-weight: bold;">Próximamente</span>
+              </div>
+            </li>
+            <li>
+                <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/sjb.png" alt="image">
+                <span style="position: absolute; top: 5px; right: 5px; background-color: purple; color: white; padding: 3px 6px; border-radius: 5px; font-size: 12px; font-weight: bold;">Próximamente</span>
+              </div>
+            </li>
+            <li>
+                <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/sms.png" alt="image">
+                <span style="position: absolute; top: 5px; right: 5px; background-color: purple; color: white; padding: 3px 6px; border-radius: 5px; font-size: 12px; font-weight: bold;">Próximamente</span>
+              </div>
+            </li>
+            <li>
+              <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/cc.png" alt="image">
+                <span style="position: absolute; top: 5px; right: 5px; background-color: purple; color: white; padding: 3px 6px; border-radius: 5px; font-size: 12px; font-weight: bold;">Próximamente</span>
+              </div>
+            </li>
+            <li>
+              <div class="client_logo aos-init" data-aos="fade-up" data-aos-duration="1500">
+                <img src="images/lm.png" alt="image">
+                <span style="position: absolute; top: 5px; right: 5px; background-color: purple; color: white; padding: 3px 6px; border-radius: 5px; font-size: 12px; font-weight: bold;">Próximamente</span>
               </div>
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
-  </header>
-
-  <section class="banner_section">
-    <div class="ripple-background">
-      <div class="circle xxlarge shade1"></div>
-      <div class="circle xlarge shade2"></div>
-      <div class="circle large shade3"></div>
-      <div class="circle mediun shade4"></div>
-      <div class="circle small shade5"></div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-          <div class="banner_text">
-            <h1>
-              "NOTIMED"
-              <span>app notificador de interconsultas</span>
-            </h1>
-            <p>
-              "Desarrollado por el área de Informática Biomédica"
-            </p>
-          </div>
-          <ul class="app_btn">
-            <li>
-              <a href="Notimed-V.1.1.apk">
-                <img class="blue_img" src="img/googleplay.png" alt="imageAndroid">
-              </a>
-            </li>
-            <li>
-              <a href="itms-services://?action=download-manifest&url=https://notimed-sanpablo.solera.pe/manifest.plist">
-                <img class="blue_img" src="img/appstorebtn.png" alt="imageIos">
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-6 col-md-12">
-          <div class="banner_slider">
-            <div class="left_icon">
-              <img src="img/smallStar.png" alt="image">
+    </section>
+  
+    <!-- Key Feature Section Start -->
+      <section class="key_feature_section row_am">
+        <div class="key_innner">
+          <div class="container">
+  
+            <div class="section_title">
+              <span class="title_badge">NOTIMED</span>
+              <h2>Nuestros Beneficios</h2>
             </div>
-            <div class="right_icon">
-              <img src="img/bigstar.png" alt="image">
-            </div>
+            <div id="feature_slider" class="owl-carousel owl-theme owl-loaded owl-drag aos-init" data-aos="fade-up" data-aos-duration="1500">
+              
+              
+              
+              
+            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2000px, 0px, 0px); transition: all 2.5s ease 0s; width: 4000px;"><div class="owl-item cloned" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Médicos</h3>
+                  <p>Facilita la notificación
+                    inmediata de interconsultas a los médicos de guardia, así como información relevante del paciente, incluyendo los resultados críticos cuando
+                    sea.</p>
+                  <div class="img" >
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/a7968d57-06ea-46af-bb09-d239c2bf15af/Wsl4vsC6z5.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div><div class="owl-item cloned" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Médicos</h3>
+                  <p>Proporciona una visión clara de los pacientes hospitalizados, permitiendo a los médicos seguimiento inmediato de los</p>
+                  <div class="img">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/bece6595-3107-468b-94e3-023a7f7b61f7/grb0AkNbVG.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div><div class="owl-item cloned" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Médicos</h3>
+                  <p>Muestra el rol de guardia del mes ayudando a los médicos a planificar y organizar mejor su</p>
+                  <div class="img">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/24626ee2-7ed9-4abb-a356-8c2c6f820f2e/z7N1XgJtlC.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div><div class="owl-item" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Médicos</h3>
+                  <p>Al ser una aplicación exclusiva para el personal médico, se garantiza la privacidad del paciente y, al mostrar datos anonimizados, se protege la confidencialidad de la</p>
+                  <div class="img">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/1aaf6b36-d067-4405-80a3-a8fefc534720/sgGg58n352.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div><div class="owl-item" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Dirección Médica</h3>
+                  <p>Seguimiento en tiempo real de interconsultas no respondidas y monitoreo de horario</p>
+                  <div class="img">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/69025247-2fa4-44ba-900b-0c8095da728f/rEY38pWAPN.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div><div class="owl-item active" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Médicos</h3>
+                  <p>Visualización inmediata de interconsultas y pacientes</p>
+                  <div class="img">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/91a2256d-5433-407c-afa3-2bcf8278c1b2/aFtpk2L1bL.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div><div class="owl-item active" style="width: 340px; margin-right: 60px;"><div class="item">
+                <div class="feature_box">
+                  <h3>Pacientes</h3>
+                  <p>Tiempos de espera reducidos para recibir atención</p>
+                  <div class="img">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+                    <dotlottie-player src="https://lottie.host/1872436b-0970-41e1-846a-1ff0333fad9d/A5fSowNi41.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                  </div>
+                </div>
+              </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="row_am our_client">
-    <div class="container">
-      <div class="section_title">
-        <h2>
-          <span class="">Disponible</span>
-          en las siguientes clínicas
-        </h2>
-      </div>
-      <ul class="client_list">
-        <li>
-          <div class="client_logo aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-            <img src="img/clinic/sg.png" alt="SG">
-          </div>
-        </li>
-        <li>
-          <div class="client_logo aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-            <img src="img/clinic/jn.png" alt="JN">
-          </div>
-        </li>
-        <li>
-          <div class="client_logo aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-            <img src="img/clinic/sp.png" alt="SP">
-          </div>
-        </li>
-        <li>
-          <div class="client_logo aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-            <img src="img/clinic/sjb.png" alt="SJB">
-          </div>
-        </li>
-        <li>
-          <div class="client_logo aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-            <img src="img/clinic/sms.png" alt="SMS">
-          </div>
-        </li>
-      </ul>
     </div>
-  </section>
 
-</body>
+  
+  
+    <!-- Jquery-js-Link -->
+    <script src="js/jquery.js"></script>
+    <!-- owl-js-Link -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- bootstrap-js-Link -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- aos-js-Link -->
+    <script src="js/aos.js"></script>
+    <!-- Typed Js Cdn -->
+    <script src="js/typed.min.js"></script>
+    <!-- main-js-Link -->
+    <script src="js/main.js"></script>
+  
+    <script>
+      $("#typed").typed({
+        strings: ["Type Writing Text", "Auto Type Text", "Add any text you like here."],
+        typeSpeed: 100,
+        startDelay: 0,
+        backSpeed: 60,
+        backDelay: 2000,
+        loop: true,
+        cursorChar: "|",
+        contentType: 'html'
+      });
+  
+      // Fixed Discount Dish JS
+      $(document).ready(function () {
+        let cardBlock = document.querySelectorAll('.task_block');
+        let topStyle = 120;
+  
+        cardBlock.forEach((card) => {
+          card.style.top = `${topStyle}px`;
+          topStyle += 30;
+        })
+  
+      }
+      );
+  
+      // Scroll Down Window 
+      $(document).ready(function () {
+        // Attach a click event handler to the button
+        $('#scrollButton').click(function () {
+          // Scroll down smoothly 200 pixels from the current position
+          $('html, body').animate({ scrollTop: $(window).scrollTop() + 600 }, 800); // Adjust the speed (800ms) as needed
+        });
+      });
+  
+    </script>
+  
+  </body>
 
 </html>
+
